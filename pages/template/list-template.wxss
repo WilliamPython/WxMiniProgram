@@ -1,0 +1,50 @@
+.listContaniner {
+  display: flex;
+  flex-direction: column;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  margin: 10rpx 0;
+}
+
+.avatarInfo {
+  padding: 10rpx;
+}
+
+.avatarInfo image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.avatarInfo text {
+  font-size: 32rpx;
+}
+
+.company {
+  margin: 10rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+
+.contentImg {
+  height: 460rpx;
+  width: 100%;
+}
+
+.contentTxt {
+  font-size: 32rpx;
+  text-indent: 32rpx;
+}
+
+.loveCollection image{
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.loveCollection text{
+  font-size: 28rpx;
+  margin-right: 10rpx;
+}

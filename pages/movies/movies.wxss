@@ -1,0 +1,43 @@
+/* pages/movies/movies.wxss */
+.movieContainer {
+  display: flex;
+  padding:20rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.movieImg{
+  width:128rpx;
+  height:128rpx;
+  margin-right: 20rpx;
+}
+
+.movie_content {
+  display: flex;
+  flex-direction: column;
+  width:70%; /* 使得评分右对齐 */
+}
+
+.movie_name{
+  font-size: 32rpx;
+  color: #000;
+  white-space: nowrap; /* 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。*/
+  overflow: hidden; /* 隐藏子元素在父元素溢出的部分 */
+  text-overflow: ellipsis; /* 显示省略符号来代表被修剪的文本 */
+}
+
+.movie_year {
+  font-size: 24rpx;
+  color: #666;
+  margin: 14rpx 0;
+}
+
+.movie_director {
+  font-size: 24rpx;
+  color: #333;
+}
+
+.movie_grade {
+  margin-left: 10rpx;
+  color: red;
+  font-weight: bold;
+}
